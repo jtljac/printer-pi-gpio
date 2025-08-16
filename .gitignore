@@ -1,0 +1,10 @@
+/*-backups/
+/output
+/production
+*.csv
+
+fp-info-cache
+_autosave-*.kicad_sch
+*.lck
+\#auto_saved_files\#
+*kbplacer.log
