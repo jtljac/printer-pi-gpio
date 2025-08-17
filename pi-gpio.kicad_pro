@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|109904550|38392600|43aa021c-aab9-46a9-bac4-e1b8b93d0816|00000000-0000-0000-0000-000000000000",
-          "It's just Mirrored"
-        ],
-        [
-          "unconnected_items|88900000|50800000|5147bc71-25ac-4755-83af-15d066e9239f|757222f9-2cee-4566-8266-026ab4eb1a8a",
+          "silk_overlap|112014000|35727300|201ccce7-bc79-489f-803d-93b861d14ec5|cb7a1507-ff13-4019-a032-76bbbbd513d1",
           ""
         ]
       ],
@@ -111,7 +107,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -558,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./output",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
