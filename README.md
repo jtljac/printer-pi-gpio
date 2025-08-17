@@ -8,7 +8,7 @@ A simple break-out board for a Raspberry Pi that makes accessing some GPIO inter
 UART Bus for connecting klipper directly to a control board via serial.  
 The UART bus also has 2 pins for 5V, which depending on your control board can power the Pi (In my case, the [SKR-Pico](https://github.com/bigtreetech/SKR-Pico) supports this). This can be enabled using the `UART Power Enable` jumper.
 
-Reverse current protection on both power inputs, also doubling as Power Or-ing, allowing both power inputs to be used together safely.
+Reverse current protection on both power inputs, also doubling as Power Or-ing, allowing both power inputs to be powered simultaniously safely.
 
 LED indicators on each power input to indicate when each one is powered.
 
